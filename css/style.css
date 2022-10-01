@@ -1,0 +1,376 @@
+header{
+    background-image: url(../images/header.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.top_line{
+
+}
+.container{
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+.top_left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.top_menu a {
+    color: white;
+  
+}
+.top_menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top_menu li{
+    margin-right: 40px;
+
+}
+.logo{
+    margin-right: 80px;
+}
+.top_right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+button{
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 213px;
+    height: 39px;
+    margin-right: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.lang a {
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+}
+.lang a:first-child {
+    border-right: 1px solid white;
+    padding-right: 5px;
+}
+.lang a:last-child {
+    padding-left: 2px;
+}
+.bottom_line{
+    margin-top: 400px;
+}
+.bottom_container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.bottom_container h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+}
+.bottom_container p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.bottom_container a {
+font-size: 16px;
+font-weight: 500;
+color: #EEC48B;
+text-transform: uppercase;
+border-bottom: 2px solid #EEC48B;
+padding-bottom: 7px;
+} 
+.icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:first-child{
+    margin-bottom: 3px;
+    position: relative;
+    
+}
+.header_icons {
+position: absolute;
+right: 0;
+bottom: 80px;
+}
+.icon:first-child::before {
+content: "1";
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #EEC48B;
+color: white;
+display: flex;
+justify-content: center;
+position: absolute;
+top: -5px;
+left: -5px;
+
+}
+/* Стили для sec1 */
+
+.sec1{
+    background-color: #202020;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec1_container{
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1 .img_wrap {
+    width: 57%;
+}
+.sec1 .text_wrap{
+    width: 34.6%;
+}
+.sec1 .text_wrap h2{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    color: white;
+    padding-bottom: 30px;
+}
+.sec1 .text_wrap p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: white;
+    padding-bottom: 40px;
+}
+.sec1 .text_wrap a {
+    color: #EEC48B;
+    text-transform: uppercase;
+    border-bottom: 1px solid #EEC48B;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.link_parent{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+} 
+.sandwich{
+    display: none;
+}
+
+
+/* Стили для sec2 */
+
+.sec2{
+    background-image: url(../images/sec2_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    
+}
+.sec2_container{
+    max-width:1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 166px;
+
+}
+.sec2_text_wrap{
+    width: 34.6%;
+}
+
+.sec2_text_wrap h2{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.sec2_text_wrap p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: white;
+    padding-bottom: 40px;
+}
+.sec2_text_wrap a {
+    color: #EEC48B;
+    text-transform: uppercase;
+    border-bottom: 1px solid #EEC48B;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.sec3{
+   background-color: black;
+   margin-top: 0%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.sec3_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.sec3 img {
+    width: 436px;
+    height: 436px;
+    margin-right: 20px;
+}
+
+.sec3_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+/* Стили для sec4 */
+.map{
+    position: relative;
+}
+.main_map {
+    width: 100%;
+}
+.geo1 .geo2 .geo3 .geo4 {
+    width: 24px;
+    height: 32px;
+}
+.geo1{
+    position: absolute;
+    left:700px;
+    top: 100px;
+}
+.geo2{
+    position: absolute;
+    right:400px;
+    top: 200px;
+}
+.geo3{
+    position: absolute;
+    left:300px;
+    bottom: 200px;
+}
+.geo4{
+    position: absolute;
+    right:500px;
+    bottom: 100px;
+}
+
+/* Стоили для sec5 */
+
+.connection {
+    background-color: #333333;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 500px;
+    padding-right: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection h2 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43.88px;
+    color: white;
+}
+
+.connect_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.connection p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    padding-top: 15px;
+   
+
+}
+.connection button{
+    border: none;
+    padding-top: 50px;
+}
+    
+.connection a {
+    color: #EEC48B;
+    border-bottom: 1px solid #EEC48B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+/* Стили для sec6 */
+.feedback{
+    background-color: #202020;
+
+}
+
+.feedback h2 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43.88px;
+    color: white;
+}
+.feedback p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    padding-top: 15px;
+}
+
+.feedback a {
+    color: #EEC48B;
+    border-bottom: 1px solid #EEC48B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
